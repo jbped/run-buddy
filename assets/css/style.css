@@ -1,11 +1,13 @@
 * {
-    padding: 0;
-    margin: 0;
+    padding: 0; /*removes browser default padding*/
+    margin: 0; /*removes browser default margins*/
+    box-sizing: border-box; /*constrains the height and width of the content in relation to the CSS Box*/
 }
 body {
     font-family: helvetica, arial, sans-serif;
     color: #39a6b2;
 }
+/*header stylization*/
 header {
     padding: 20px 35px;
     background-color: #39a6b2;    
@@ -16,7 +18,7 @@ header h1 {
     font-size: 35px;
     color: #fce138;
     margin: 0;
-    display: inline;
+    display: inline; /*default 'block' which spans the entire width of the <body>, setting it to inline allows other elements to be sit beside it*/
 }
 
 header a {
@@ -40,4 +42,28 @@ header nav ul li {
 
 header nav ul li:hover{
     text-decoration: underline;
+}
+
+/*footer stylization*/
+footer {
+    background-color: #fce138;
+    width: 100%;
+    padding: 40px 35px;
+}
+
+footer h2{
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+}
+
+footer div {
+    float: right;
+    line-height: 1.5; /*line spacing*/
+    text-align: right;
+}
+
+footer a {
+    color: #024e76;
 }
