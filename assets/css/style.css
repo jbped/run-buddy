@@ -7,7 +7,7 @@ body {
     font-family: helvetica, arial, sans-serif;
     color: #39a6b2;
 }
-/*header stylization*/
+/*header stylization start*/
 header {
     padding: 20px 35px;
     background-color: #39a6b2;    
@@ -18,7 +18,8 @@ header h1 {
     font-size: 35px;
     color: #fce138;
     margin: 0;
-    display: inline; /*default 'block' which spans the entire width of the <body>, setting it to inline allows other elements to be sit beside it*/
+    display: inline; /*default 'block' which are generated in a new line, setting it to inline allows other elements to be sit beside each other*/
+    text-transform: uppercase;
 }
 
 header a {
@@ -43,8 +44,9 @@ header nav ul li {
 header nav ul li:hover{
     text-decoration: underline;
 }
+/*header stylization end*/
 
-/*footer stylization*/
+/*footer stylization start*/
 footer {
     background-color: #fce138;
     width: 100%;
@@ -67,3 +69,69 @@ footer div {
 footer a {
     color: #024e76;
 }
+/*footer stylization end*/
+
+/*jumbotron stylization start*/
+section {
+    padding: 60px;
+}
+
+.jumbotron {
+    background-image: url("../images/hero-bg.jpg");
+    height:600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+/*jumbotron stylization end*/
+
+/*jumbo-form stylization start*/
+.jumbo-form {
+    background-color: #fce138;
+    padding:20px;
+    width:500px;
+    color:#024e76;
+    border:solid 3px #024e76;
+    position:absolute;
+    bottom: 120px;
+    right:140px;
+}
+
+.jumbo-form h3 {
+    font-size: 30px;
+    margin: 0;
+}
+
+.jumbo-form p {
+    margin: 5px 0px 15px 0px;
+}
+
+.jumbo-form label{
+    margin: 0 5px;
+}
+
+.jumbo-form button {
+    background-color:#024e76;
+    color: #fce138;
+    padding: 12px 20px;
+    font-style: bold;
+    font-size: 16px;
+    border: none;
+}
+.jumbo-form button:hover {
+    text-decoration: underline;
+    font-style: italic;
+    padding: 10px 4px;
+    text-transform: uppercase;
+    border: 2px solid black;
+}
+.form-input {
+    border: 1px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color:#024e76;
+    width: 100%;
+    margin-bottom: 10px;
+}
+/*jumbo-form stylization end*/
