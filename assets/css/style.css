@@ -111,6 +111,27 @@ section {
 }
 /*jumbo-form stylization end*/
 
+/*Universal Section Stylizations Start*/
+.section-title {
+    font-size: 55px;
+    color:#024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 0 100px;
+    border-bottom: 3px solid #39a6b2;
+    display:inline-block;
+    border-bottom: 3px solid;
+}
+
+.primary-border {
+    border-color:#fce138;
+}
+
+.secondary-border {
+    border-color:#39a6b2;
+}
+
+/*Universal Section Stylizations End*/
+
 /*Intro/What We Do Section Stylization Start*/
 .intro {
     text-align: center;
@@ -132,6 +153,33 @@ section {
     margin: 0 auto; /*left and right margins are being automatically calculated by the browser, circumventing the 80% width stylization limitations (only works for horizontal centering)*/
 }
 /*Intro/What We Do Section Stylization End*/
+
+/*Steps/What You Do Section Stylization Start*/
+.steps {
+    text-align: center;
+    background:#fce138;
+}
+
+.steps img {
+    width:15%;    
+    margin: 10px 0;
+}
+
+.steps h3 {
+    color: #024e76;
+    font-size: 46px;
+    margin-top: 10px;
+}
+
+.steps span {
+    font-size: 38px;
+}
+
+.steps p {
+    color:#39a6b2;
+    font-size:23px;
+}
+/*Steps/What Your Do Section Stylization End*/
 
 /*footer stylization start*/
 footer {
