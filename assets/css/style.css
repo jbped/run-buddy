@@ -1,3 +1,5 @@
+/*Universal Stylizations Start*/
+
 * {
     padding: 0; /*removes browser default padding*/
     margin: 0; /*removes browser default margins*/
@@ -7,6 +9,35 @@ body {
     font-family: helvetica, arial, sans-serif;
     color: #39a6b2;
 }
+
+.section-title {
+    font-size: 55px;
+    color:#024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 0 100px;
+    border-bottom: 3px solid #39a6b2;
+    display:inline-block;
+    border-bottom: 3px solid;
+}
+
+.primary-border {
+    border-color:#fce138;
+}
+
+.secondary-border {
+    border-color:#39a6b2;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+/*Universal Section Stylizations End*/
+
 /*header stylization start*/
 header {
     padding: 20px 35px;
@@ -111,35 +142,6 @@ section {
 }
 /*jumbo-form stylization end*/
 
-/*Universal Stylizations Start*/
-.section-title {
-    font-size: 55px;
-    color:#024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 0 100px;
-    border-bottom: 3px solid #39a6b2;
-    display:inline-block;
-    border-bottom: 3px solid;
-}
-
-.primary-border {
-    border-color:#fce138;
-}
-
-.secondary-border {
-    border-color:#39a6b2;
-}
-
-.text-right {
-    text-align: right;
-}
-
-.text-left {
-    text-align: left;
-}
-
-/*Universal Section Stylizations End*/
-
 /*Intro/What We Do Section Stylization Start*/
 .intro {
     text-align: center;
@@ -200,7 +202,7 @@ section {
     margin: 0 auto 30px auto;
     background:#024e76;
     color:#fce138;
-    overflow: auto;
+    overflow: auto; /*contains the child content within the parameters of the parent when floating */
 }
 
 .trainer img {
