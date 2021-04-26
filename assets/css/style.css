@@ -41,7 +41,10 @@ body {
 /*header stylization start*/
 header {
     padding: 20px 35px;
-    background-color: #39a6b2;    
+    background-color: #39a6b2;
+    display: flex;
+    justify-content: space-between; /*It determines the unused space by adding up the border-width, margin, padding, and content of each child element. If these don't add up to 100% of the parent, then whatever is left over is considered unused.*/
+    flex-wrap: wrap;
 }
 
 header h1 {
@@ -49,7 +52,6 @@ header h1 {
     font-size: 35px;
     color: #fce138;
     margin: 0;
-    display: inline; /*default 'block' which are generated in a new line, setting it to inline allows other elements to be sit beside each other*/
     text-transform: uppercase;
 }
 
@@ -59,7 +61,6 @@ header a {
 }
 
 header nav {
-    float: right;
     margin: 7px 0;
     
 }
