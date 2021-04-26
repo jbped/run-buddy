@@ -84,47 +84,46 @@ header nav ul li:hover{
 }
 /*header stylization end*/
 
-/*jumbotron stylization start*/
+/*hero stylization start*/
 section {
     padding: 60px;
 }
 
-.jumbotron {
+.hero {
     background-image: url("../images/hero-bg.jpg");
-    height:600px;
     background-size: cover;
     background-position: center;
-    position: relative;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
 }
 
-/*jumbotron stylization end*/
+/*hero stylization end*/
 
-/*jumbo-form stylization start*/
-.jumbo-form {
+/*hero-form stylization start*/
+.hero-form {
     background-color: #fce138;
     padding:20px;
-    width:500px;
     color:#024e76;
     border:solid 3px #024e76;
-    position:absolute;
-    bottom: 120px;
-    right:140px;
+    width: 40%;
+    margin:3.5%;
 }
 
-.jumbo-form h3 {
+.hero-form h3 {
     font-size: 30px;
     margin: 0;
 }
 
-.jumbo-form p {
+.hero-form p {
     margin: 5px 0px 15px 0px;
 }
 
-.jumbo-form label{
+.hero-form label{
     margin: 0 5px;
 }
 
-.jumbo-form button {
+.hero-form button {
     background-color:#024e76;
     color: #fce138;
     padding: 12px 20px;
@@ -132,7 +131,7 @@ section {
     font-size: 16px;
     border: none;
 }
-.jumbo-form button:hover {
+.hero-form button:hover {
     text-decoration: underline;
     font-style: italic;
     padding: 10px 4px;
@@ -147,6 +146,21 @@ section {
     color:#024e76;
     width: 100%;
     margin-bottom: 10px;
+}
+
+.hero-cta {
+    width: 35%;
+    text-align: right;
+    margin: 3.5%;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.3;
+}
+
+.hero-cta h2 {
+    font-style: italic;
+    font-size: 55px;
+    color: #fce138;
 }
 /*jumbo-form stylization end*/
 
@@ -293,20 +307,21 @@ section {
 
 /*footer stylization start*/
 footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     background-color: #fce138;
     width: 100%;
     padding: 40px 35px;
 }
 
 footer h2{
-    display: inline;
     color: #024e76;
     font-size: 30px;
     margin: 0;
 }
 
 footer div {
-    float: right;
     line-height: 1.5; /*line spacing*/
     text-align: right;
 }
