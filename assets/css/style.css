@@ -605,8 +605,9 @@ footer a {
     }
 
     .contact-info {
-        /* text-align: center; */
+        text-align: center;
     }
+
     .contact-info > *{
         flex: 0 100%;
 
